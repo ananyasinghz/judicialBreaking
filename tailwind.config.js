@@ -11,3 +11,15 @@ module.exports = {
   ],
   plugins: [require("daisyui")],
 }
+
+module.exports = {
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}',
+    // Add paths to components
+    './node_modules/shadcn-ui/**/*.{js,ts,jsx,tsx}'
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
